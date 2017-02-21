@@ -26,13 +26,16 @@ categories: jekyll
 
 <p>All the problems stated above can be addressed by maintaining everything in one database. But certainly it is not a good idea considering maintainability and portability of both database and micro-service. Micro-service should be responsible to maintain only required data. But as we think through, it would lead to a data sharing problem. If one micro-service requires data created by other, it would need to make either direct remote database call or CPI call to a micro-service who owns that data. But again here micro-service is depending on other services for its own existence, if any of these is not available micro-service would fail to process request.</p>
 
+<hr />
+
 <h2>Potential Solutions</h2>
 <ul>
 <li>2-Phase Commit</li>
 <li>Event Driven replication</li>
 </ul>
+<hr />
 
-<p>Here we will explore Event Driven replication considering its advantages in distributed environment</p>
+<p>Here we will explore Event Driven replication considering its advantages in distributed environment.</p>
 <p>Gourav and I started finding possible solutions and have implemented proof of concept for the same.
 <p>Please refer below links which detail our finding and instructions to work through the implementation.<p>
 [Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)
@@ -40,6 +43,7 @@ categories: jekyll
 
 <h2>Github Commits</h2>
 I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,
+
 <ul>
 <li>Commits to airavata-courses repository : [LINK](https://github.com/airavata-courses/spring17-microservice-data-management/commits/master)</li>
 <li>Commits to Gourav's repository : [LINK](https://github.com/gouravshenoy/EventDrivenDBMicroservices/commits)</li>
