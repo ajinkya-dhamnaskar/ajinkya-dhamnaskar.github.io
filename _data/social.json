@@ -1,18 +1,14 @@
 [
   {
     "icon": "fa-facebook",
-    "link": ""
-  },
-  {
-    "icon": "fa-twitter",
-    "link": ""
+    "link": "https://www.facebook.com/ajinkya.dhamnaskar"
   },
   {
     "icon": "fa-linkedin",
-    "link": ""
+    "link": "https://www.linkedin.com/in/ajinkya-dhamnaskar-1b2468105/"
   },
   {
-    "icon": "fa-stack-exchange",
+    "icon": "fa-github",
     "link": ""
   }
 ]
