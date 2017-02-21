@@ -42,9 +42,15 @@ categories: jekyll
 [Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)
 
 <h2>Github Commits</h2>
-I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,
+<p>I started contributing to Gourav's [EventDrivenDBMicroservices](EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,<p>
 
 <ul>
-<li>Commits to airavata-courses repository : [LINK](https://github.com/airavata-courses/spring17-microservice-data-management/commits/master)</li>
-<li>Commits to Gourav's repository : [LINK](https://github.com/gouravshenoy/EventDrivenDBMicroservices/commits)</li>
+<li>Commits to airavata-courses repository : [LINK](LINK1)</li>
+<li>Commits to Gourav's repository : [LINK](LINK2)</li>
 </ul>
+
+
+[EventDrivenDBMicroservices]:      https://github.com/gouravshenoy/EventDrivenDBMicroservices
+[spring17-microservice-data-management]:   https://github.com/airavata-courses/spring17-microservice-data-management
+[LINK1]: https://github.com/airavata-courses/spring17-microservice-data-management/commits/master
+[LINK2]: https://github.com/gouravshenoy/EventDrivenDBMicroservices/commits
