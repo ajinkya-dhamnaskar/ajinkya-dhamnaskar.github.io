@@ -40,8 +40,9 @@ categories: jekyll
 <p>Please refer below links which detail our finding and instructions to work through the implementation.</p>
 
 
-[Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)
-[Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)
+*[Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)   
+
+*[Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)
 
 
 <h2>Github Commits</h2>
