@@ -39,10 +39,10 @@ categories: jekyll
 <p>Here we will explore Event Driven replication considering its advantages in distributed environment. Gourav and I started finding possible solutions and have implemented proof of concept for the same.</p>
 <p>Please refer below links which detail our finding and instructions to work through the implementation.</p>
 
-<ul>
-<li>[Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)</li>
-<li>[Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)</li>
-</ul>
+
+[Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)
+[Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)
+
 
 <h2>Github Commits</h2>
 <p>I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,</p>
