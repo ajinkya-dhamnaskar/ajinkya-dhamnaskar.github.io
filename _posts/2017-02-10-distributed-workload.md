@@ -12,10 +12,8 @@ The motivation for this came from possible enhancements in Apache Airavata. We a
 As I said there isn't any trademark solution, each has its own pros and cons. Even though it is designed considering Apache Airavata, we have tried to keep it as generic as possible.   
 We had to go through quite a few iterations to come up with this solution. There is huge chuck of possible solutions, we tried which best suit are requirements.   
 First, we started with state-full vs state-less design and obvious inclination was always towards state-less. This design decisions motivated us to think trough centralized vs decentralized architecture.   
-Still, there are quite a few implementation based concerns we are yet to address like which messaging infrastructure will best serve the need.
+Still, there are quite a few implementation concerns we are yet to address like which messaging infrastructure will best serve the need.
 </p>
-
-<hr />
 
 Here are the pages which explain all of this in detail, 
 * A state-full design : [LINK](https://github.com/airavata-courses/spring17-workload-management/wiki/1.-A-state-full-design-for-workload-management)
