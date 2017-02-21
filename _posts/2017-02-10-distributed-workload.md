@@ -15,7 +15,7 @@ First, we started with state-full vs state-less design and obvious inclination w
 Still, there are quite a few implementation concerns we are yet to address like which messaging infrastructure will best serve the need.
 </p>
 
-Here are the pages which explain all of this in detail, 
+Here are the pages which explain everything in detail, 
 * A state-full design : [LINK](https://github.com/airavata-courses/spring17-workload-management/wiki/1.-A-state-full-design-for-workload-management)
 * A state-less design : [LINK](https://github.com/airavata-courses/spring17-workload-management/wiki/2.-A-state-less-design-for-workload-management)
 * Final Design : [LINK](https://github.com/airavata-courses/spring17-workload-management/wiki/%5BFinal%5D-Centralized-architecture-for-workload-management)
