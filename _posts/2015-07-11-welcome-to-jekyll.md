@@ -2,7 +2,6 @@
 layout: post
 title:  "Event Based Database Replication For Microservices"
 date:   2017-02-17 13:50:39
-categories: Microservice Architecture
 ---
 
 <h1>Event Based Database Replication For Microservices</h1>
