@@ -24,7 +24,7 @@ Here are the pages which explain everything in detail,
 
 <h2>Solution Evaluation</h2>
 Above WiKi links best explains each solution and its pros and cons. Thanks to dev@airavata.apache.org and class discussions We have been able to come towards the architectural consensus. 
-
+<hr />
 <h2>Conclusion</h2>
 As we have decided to move ahead with [final design](https://github.com/airavata-courses/spring17-workload-management/wiki/%5BFinal%5D-Centralized-architecture-for-workload-management), we are building POC to uncover possible corner cases. During this we shall need to evaluate and take critical implementation decisions, any suggestions regarding messaging infrastructure, communication models would be very helpful. 
 <hr />
