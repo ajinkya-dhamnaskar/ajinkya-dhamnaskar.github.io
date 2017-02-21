@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Distributed Workload Management  
-categories: others
+date:   2017-02-10 13:50:39
+categories: Microservice Architecture
 ---
 <h1>Distributed Workload Management</h1>
 
