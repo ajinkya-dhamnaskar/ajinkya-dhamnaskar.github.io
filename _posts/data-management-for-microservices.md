@@ -32,4 +32,4 @@ categories: jekyll
 <li>Event Driven replication</li>
 </ul>
 
-<p>Here we will explore Event Driven replication considering considering its advantages in distributed environment</p>
+<p>Here we will explore Event Driven replication considering its advantages in distributed environment</p>
