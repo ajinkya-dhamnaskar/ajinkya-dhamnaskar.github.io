@@ -6,7 +6,7 @@ date:   2017-02-17 13:50:39
 
 <h1>Event Based Database Replication For Microservices</h1>
 
-<p>The goal of this project is to explore possible ways to manage data across micro-services. The outcome would eventually be applied to address possible enhancements in Aapche Airavata. Having said that we shall try to keep this as generic as possible. This will eventually lead to find best possible way to manage data across different micro-services without compromising any of the key attributes of micro-service.</p>
+<p>The goal here is to explore possible ways to manage data across micro-services. The outcome would eventually be applied to address possible enhancements in Aapche Airavata. Having said that we shall try to keep this as generic as possible. This will eventually lead to find best possible way to manage data across different micro-services without compromising any of the key attributes of micro-service.</p>
 
 <p>The whole purpose of the micro-service architecture is separation of concerns and independence. The key here is to make your service independent of surrounding but,</p>
 
