@@ -51,7 +51,7 @@ date:   2017-02-17 13:50:39
 <hr />
 
 <h2>Github Commits</h2>
-I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,
+I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction of this theme, I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,
 
 * Commits to airavata-courses repository : [LINK](https://github.com/airavata-courses/spring17-microservice-data-management/commits/master)
 * Commits to Gourav's repository : [LINK](https://github.com/gouravshenoy/EventDrivenDBMicroservices/commits)
