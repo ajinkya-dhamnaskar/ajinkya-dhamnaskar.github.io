@@ -36,7 +36,7 @@ date:   2017-02-17 13:50:39
 <hr />
 
 <p>Here we will explore Event Driven replication considering its advantages in distributed environment. Gourav and I started finding possible solutions and have implemented proof of concept for the same.</p>
-<p>Please refer below links which detail our finding and instructions to work through the implementation.</p>
+<p>Please refer below links which detail our findings and instructions to work through the implementation.</p>
 
 
 * [Event Driven Approach](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/An-Event-Driven-Architecture-Explained)   
