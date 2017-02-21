@@ -16,7 +16,7 @@ date:   2017-02-17 13:50:39
 <li>Can micro-service have its private database?</li>
 <li>If so, what if micro-services working together need to share data?</li>
 <li>Is it a good idea to allow micro-service query data from other than its private database?</li>
-<li>Can we maintain such data is shared database?</li>
+<li>Can we maintain such data in shared database?</li>
 </ul>
 
 <hr />
