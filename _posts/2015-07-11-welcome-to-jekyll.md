@@ -44,6 +44,10 @@ categories: jekyll
 
 * [Prototype](https://github.com/airavata-courses/spring17-microservice-data-management/wiki/Event-Driven-DB:-Steps-to-Run-Prototype)
 
+<h2>Conclusion</h2>
+<p>Each approach has its own pros and cons. The only problem with 2-phase commit is, it doesn't get get with microservice architecture when it comes to availability. With event driven approach we can overcome this problem but at the cost of consistency. With implemented POC we have made sure we achieve eventual consistency, provided message brocker is highly available.</p>
+
+<hr />
 
 <h2>Github Commits</h2>
 I started contributing to Gourav's [EventDrivenDBMicroservices](https://github.com/gouravshenoy/EventDrivenDBMicroservices) repository. After formal introduction in front of class I moved entire project under [spring17-microservice-data-management](https://github.com/airavata-courses/spring17-microservice-data-management). Due to this move personal commits are lost. My commits are directly on master as most of the part that I did was completed in previous repository, below are the links for my contribution,
