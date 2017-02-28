@@ -30,7 +30,7 @@ As we have decided to move ahead with [final design](https://github.com/airavata
 <hr />
 
 <h2>Github Commits</h2>
-We are still working on prototype. We have started implentation and have completed most of the individual tasks and are planing to integrate soon. My contribution towards the poc is tracker [here](https://github.com/airavata-courses/spring17-workload-management/commit/3fa373f72b63a511f8d70c3e11808d1ba1f118e9)
+We are still working on prototype. We have started implentation and have completed most of the individual tasks and are planing to integrate soon. My contribution towards the poc is tracked [here](https://github.com/airavata-courses/spring17-workload-management/commit/3fa373f72b63a511f8d70c3e11808d1ba1f118e9)
 <hr />
 
 <h2>Airavata Dev List Discussion</h2>
