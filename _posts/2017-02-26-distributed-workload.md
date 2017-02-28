@@ -19,8 +19,8 @@ We started with pub-sub rabbitmq model but as we moved further we got to know wo
 message consumption by single worker at a time, if worker fails to process, the message gets queued again for other waiting workers.    
 I also implemented priority provisioning for rabbitmq messages, this would help alter message priority based on user need. 
 
-Gourav and I worked on scheduler, we are yet to come to consensus regarding responsibilities of scheduler, do we need database? how can we support delayed job submission? in 
-hackillinois when we presented workflow issue in front of students they came up with an interesting match making scheduling algorithm, we might consider using the same, 
+Gourav and I worked on scheduler, we are yet to come to consensus regarding responsibilities of scheduler, do we need database? how we can support delayed job submission?   
+In hackillinois when we presented workflow issue in front of students they came up with an interesting match making scheduling algorithm, we might consider using the same, 
 I shall explain this algorithm in next blog after reviewing its correctness.    
 
 As far as orchestrator is concerned we are yet to make significant move, for now we have written simple stub which mocks orchestrator functionalities.
