@@ -3,7 +3,7 @@ layout: post
 title: Distributed Workload Management  
 date:   2017-02-26 13:50:39
 ---
-<h1>Distributed Workload Management</h1>
+<h1>Distributed Workload Management Cont.....</h1>
 As discussed in previous [Distributed Workload Management](https://ajinkya-dhamnaskar.github.io/2017/02/10/distributed-workload.html)
 blog, this one is mainly about prototype implementation for [final design](https://github.com/airavata-courses/spring17-workload-management/wiki/%5BFinal%5D-Centralized-architecture-for-workload-management)   
 
