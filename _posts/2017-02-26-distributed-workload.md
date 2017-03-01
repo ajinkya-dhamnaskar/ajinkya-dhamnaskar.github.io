@@ -15,7 +15,7 @@ both these tasks require remote system interaction, so we decided to club them i
 We have implemented SCP and SFTP protocols in both the tasks. 
 
 I contributed to [messaging infrastructure](https://github.com/airavata-courses/spring17-workload-management/tree/develop/Messaging).
-We started with pub-sub rabbitmq model but as we moved further we got to know worker model better suits our requirement. Worker model guarantees,
+We started with pub-sub rabbitmq model but as we moved further we got to know work queue model better suits our requirement. Work queue model guarantees,
 message consumption by single worker at a time, if worker fails to process, the message gets queued again for other waiting workers.    
 I also implemented priority provisioning for rabbitmq messages, this would help alter message priority based on user need. 
 
