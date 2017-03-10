@@ -15,14 +15,17 @@ The better way to handle these problems was to have centralized event manager wh
 
 <p align="center"><img src="../../../assets/airavata_event_driven_data_replication.png" alt="Example Image"></p>
 
-Let's use the example illustrated in above figure to understand proposed designed. Assume, when new user is added to the system, some of the user profile attribute need to be replicated in sharing and application service. User profile service publishes and event with oprations type(CRUD)and entiry type. DB Event Manager processes event queue and acknoledges back to publisher, so User service is now free to commit trasaction. Now its event manager's responsibility to deliver this event to interested services. 
+Let's use the example illustrated in above figure to understand proposed design. Assume, when new user is added to the system, some of the user profile attribute need to be replicated in sharing and application service. User profile service publishes an event with operation type(CRUD), entity type and actual entity (TBase object). DB Event Manager processes event queue and acknowledges back to publisher, so user_profile service is now free to commit transaction. Now its event manager's responsibility to deliver this event to interested services. 
 
 Whenever, new service is interested in event related to any entity, it simply shows its interest by sending message to event manager, event manager then adds this service in a local map against particular enitity.
 
-DB event manager uses local map to identify corresponding subscribers in this case sharing_sub and application_sub and sends user creation event on respectives queues. 
+DB event manager uses local map to identify corresponding subscribers in this case sharing_sub and application_sub and sends user creation event through respective queues. 
 
-Now, the challange here is to employ some parmanent chaching logic to avoid any loss of this mapping incase event manager crashes. We are using ZK as a parmanent cache to store this mapping, so when event manager comes up it can restore mapping using ZK node state. 
+Now, the challenge here is to employ permanent caching logic to avoid loss of this mapping in case event manager crashes. We are using ZK as a permanent cache to store this mapping, so when event manager comes up it can restore mapping using ZK node state. 
 
 There can be multiple instances of a same service listening to a queue but only one would react to the message as we are using work queue model.  
 
-ZK creates a publisher entity node, any service which is interested in this entity will have node inside publisher entity. Here, user is a parent directoy (publisher entity) and all the nodes inside user are interested services(subscribers). 
+ZK creates a publisher entity node, any service which is interested in this entity will have node inside publisher entity. Here, user is a parent node (publisher entity) and all the nodes inside user are interested services(subscribers).  
+
+Gourav and I have started developement and will address challenges and implementation concerns in upcoming blogs. 
+ 
