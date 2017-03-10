@@ -30,4 +30,6 @@ ZK creates a publisher entity node, any service which is interested in this enti
 We are still debating about whether to use single event_queue which would take all the load of events or to complicate event manager by having queues for every event publisher. Each approach has its pros and cons, we are working through it and would come up with solution soon.
 
 Gourav and I have started developement and will address challenges and implementation concerns in upcoming blogs. 
+
+Related [JIRA](https://issues.apache.org/jira/browse/AIRAVATA-2338)
  
