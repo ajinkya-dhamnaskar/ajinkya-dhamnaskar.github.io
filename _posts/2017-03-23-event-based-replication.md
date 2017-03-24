@@ -6,12 +6,12 @@ date:   2017-03-23 13:50:39
 
 <h1>Event Based Database Replication In Airavata Cont....</h1>
 
-In the [previous](https://ajinkya-dhamnaskar.github.io/2017/03/09/event-based-replication.html) approach we were creating a lot of queues, but then we came across TOPIC implementation of RabbitMQ which would essentially offload event manager from creating large number of queues.
-We discovered that TOPIC implementation of RabbbitMQ can also be used as a work-queue with little tweaks. We have able to implement this approach, below are details for the same.   
+In the [previous](https://ajinkya-dhamnaskar.github.io/2017/03/09/event-based-replication.html) approach, we were creating a lot of queues, but then we came across TOPIC implementation of RabbitMQ which would essentially offload event manager from creating large number of queues.
+We discovered that TOPIC implementation of RabbbitMQ can also be used as a work-queue with little tweaks. We have been able to implement this approach, let's discuss implentation details,   
 
-Services simply publishes message to 'DB Event Exhange' but with the routing key 'db.event.queue' which redirects message to db.event.queue. Db Event Manager listens to this queue and act on the message based on message type.   
+Services simply publishes message to 'DB Event Exhange' but with the routing key 'db.event.queue' which redirects message to db.event.queue. Db Event Manager listens to this queue and act on message based on message type.   
 
-If it is a service discovery message, it simply updates zk node structure. Consider following depicted case, where service B and service C are interested in events from service A. Both these services sends service discovery message to DB Event Manager which in turn updates zk node structure as shown.
+If it's a service discovery message, it simply updates zk node structure. Consider following depicted case, where service B and service C are interested in events from service A. Both these services sends service discovery message to DB Event Manager which in turn updates zk node structure as shown.
 
 <p align="center"><img src="../../../assets/service-discovery.png" alt="Service Discovery"></p>
 
