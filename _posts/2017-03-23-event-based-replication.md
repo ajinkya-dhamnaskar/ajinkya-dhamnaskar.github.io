@@ -15,7 +15,8 @@ If it is a service discovery message, it simply updates zk node structure. Consi
 
 <p align="center"><img src="../../../assets/service-discovery.png" alt="Service Discovery"></p>
 
-In case of DB Event message, it simply fetches all the interested subscriber identifiers from zk and sends message through same exchange but using multiple routing keys. This designs offloads DB Event manager at the suscriber front, as DB event manager need not to create subcriber for each service type.
+In case of DB Event message, it simply fetches all interested subscribers from zk and sends message through same exchange but using multiple routing keys. This designs offloads DB Event manager at the suscriber front, as DB event manager need not to create subcriber for each service type.   
+
 Consider below diagram, Service A publishes db event to 'DB Event Exchange', event manager intercepts that message and lookup for corresponding subscriber services in zk. As service_B and service_C are interested in events from service A, event manager pushishes message to exchange with routing keys 'service_B' and 'service_c' respectively.
 
 <p align="center"><img src="../../../assets/db-event.png" alt="Service Discovery"></p>
