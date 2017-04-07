@@ -6,7 +6,7 @@ date:   2017-04-06 13:50:39
 
 <h1>Event Based Database Replication In Airavata Cont....</h1>
 
-While working through [previously discussed](https://ajinkya-dhamnaskar.github.io/2017/03/23/event-based-replication.html) approach we discoved the Topic Routing implementation of 
+While working through [previously discussed](https://ajinkya-dhamnaskar.github.io/2017/03/23/event-based-replication.html) approach we discoved that the Topic Routing implementation of 
 RabbitMQ resonate with our requirement. As discussed earlier, consider below diagram, Service A publishes db event to 'DB Event Exchange', event manager intercepts that message and lookup for corresponding subscriber services in zk. As service_B and service_C are interested in events from service A, event manager pushishes message to exchange with routing keys 'service_B' and 'service_c'. That way message gets routed to correponding services. If multiple instances of the same service are listening to a queue only one of them reacts. 
 
 <p align="center"><img src="../../../assets/db-event.png" alt="Service Discovery"></p>
