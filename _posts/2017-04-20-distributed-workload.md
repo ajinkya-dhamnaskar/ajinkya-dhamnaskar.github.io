@@ -44,3 +44,19 @@ My contribution is tracked [here](https://git-wip-us.apache.org/repos/asf?p=aira
 <hr/>   
 
 Apart from that, there are quite a few tools out there which can be handy and do most of the part what we are trying to see in our framework. Currently, we are looking into Spark, Flink and Storm as potential alternative to our proposed design. We are maintaining [google doc](https://docs.google.com/document/d/1XDNQV7VjkinYIL4uHitl9z6qQSqf7v42xOGI85sGELA/edit?ts=58f62d9f) which lists required use cases and capabilities in airavata. The purpose of this document is to discuss and compare different tools and their compatibility against the listed use cases. please feel free to add suggestions and your views.
+
+<hr/>
+<h2>Work Summary</h2>
+
+As a part of class projects I worked on following things;   
+
+* Data management across mutiple miscoservices in distributed environment.
+  * 2 phase Commit
+  * Event based database replication
+* Distributed workload management.
+  * Statefull Design 
+  * Stateless Design
+  * AKKA approach
+
+<i>I have discussed all these in great details in my earlier blogs.</i>
+
