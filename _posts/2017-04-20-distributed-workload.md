@@ -30,7 +30,7 @@ We are also using ZK to store currently executing experiments. ZK maintains node
 --/exp5   
 --/exp13   
 
-In case of recovery, if we know experiment id, neo4j database can be queried to get next node that needs to be executed from the DAG, as mentioned earlier this node has all the required information for task execution. Once particular task is executed, node is marked by setting isExecuted = 'true'. In this way, DAG is executed until last node in a DAG is executed when we mark experiment as completed. In case of recovery, DAG is queries to get last incompelete node (where isExcecuted='false') and we start from there. We are also maintaing audit trail of individual tasks and entire experiment throughout the lyfecycle. 
+In case of recovery, if we know experiment id, neo4j database can be queried to get next node that needs to be executed from the DAG, as mentioned earlier this node has all the required information for task execution. Once particular task is executed, node is marked by setting isExecuted = 'true'. In this way, DAG is executed until last node in a DAG is executed when we mark experiment as completed. In case of recovery, DAG is queries to get last incompelete node (where isExcecuted='false') and we start from there. We are also maintaing audit trail of individual tasks and entire experiment throughout the lifecycle. 
 <hr/>
 <h2>Github Commits</h2>
 My contribution is tracked [here](https://github.com/airavata-courses/spring17-workload-management/commits/develop).   
