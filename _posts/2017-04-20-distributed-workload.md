@@ -22,7 +22,7 @@ On the other hand we have live DAG which has nodes filled with task context and 
 
 <p align="center"><img src="../../../assets/neo4j-dag.png" alt="DAG Structure"></p>
 
-We are also using ZK to store currently executed experiments. ZK maintains nodes with experiment id as a name. Whenever experiment completes, corresponding ZK node is deleted. So even if system crashes we can recover experiments which were not completely executed. 
+We are also using ZK to store currently executing experiments. ZK maintains nodes with experiment id as a name. Whenever experiment completes, corresponding ZK node is deleted. So even if system crashes we can recover experiments which were not completely executed. 
 
 /running-exp-dir   
 --/exp1   
